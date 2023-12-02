@@ -1,0 +1,147 @@
+
+
+body {
+    justify-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+header {
+    justify-content: center;
+    border: solid #4caf50;
+    width: 90%;
+    background-color: #4caf50;
+    color: white;
+    padding: 1em;
+    border-radius: 1rem;
+    box-shadow: 0 0 18px -2px rgba(0, 0, 0, 0.5);
+    margin: 1rem;
+    perspective: 800px;
+    transition: transform 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    
+}
+header:hover {
+    transform: rotateX(10deg);
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    justify-content: center;
+    align-items: center;
+}
+ .allPuppies {
+   display: flex;
+    flex-wrap: wrap;
+ }
+
+ .atags {
+    transform: rotateX(10deg);
+    perspective: 800px;
+    transition: transform 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: .5rem;
+    font-size: 16px;
+    font-family: cursive;
+    padding: 3px;
+    }
+
+    .atags:hover {
+        box-shadow: 0 0 18px -2px rgba(0, 0, 0, 0.5);
+        transition: .5s;
+    }
+
+ .allPlayersButton {
+    transform: rotateX(10deg);
+    perspective: 800px;
+    transition: transform 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    font-size: 40px;
+    padding: .25 1rem;
+    font-family: cursive;
+
+ }
+ .allPlayersButton:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 18px -2px rgba(0, 0, 0, 0.5);
+    background-color: aliceblue;
+    transition: .5s;
+ }
+
+
+.theDiv {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    width: 25%;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #4d4d4d;
+    border-radius: 1rem;
+    transition: all 0.5s;
+    box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.3);
+    color: #333;
+    background-color: #e0f2f1;
+}
+
+
+.otherDiv {
+    justify-content: center;
+    align-items: center; 
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #4d4d4d;
+    border-radius: 1rem;
+    transition: all 0.5s;
+    width: 75%;
+    box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    background-color: #e0f2f1;
+}
+
+.theDiv:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 18px -2px rgba(0, 0, 0, 0.5);
+    background-color: aliceblue;
+    transition: .5s;
+}
+
+
+.image {
+    max-width: 100%; 
+    height: auto; 
+    object-fit: cover;
+    border-radius: 10%;
+    
+}
+
+
+
+.nameStyle {
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    color: #4d4d4d;
+    align-items: center;
+}
+.atag {
+    font-family: cursive;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        width: 100%; 
+    }
+
+    .theDiv {
+        width: 100%; 
+        
+    }
+}
